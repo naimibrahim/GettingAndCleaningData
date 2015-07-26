@@ -33,7 +33,7 @@ Dataset structure
 
 
 ```r
-str(dtTidy)
+str(agg_all)
 ```
 
 ```
@@ -51,19 +51,4 @@ str(dtTidy)
 ##  $ average         : num  -0.0166 -0.0645 0.1487 -0.8735 -0.9511 ...
 ##  - attr(*, "sorted")= chr  "subject" "activity" "featDomain" "featAcceleration" ...
 ##  - attr(*, ".internal.selfref")=<externalptr>
-```
-
-
-List the key variables in the data table
-----------------------------------------
-
-
-```r
-key(dtTidy)
-```
-
-```
-## [1] "subject"          "activity"         "featDomain"      
-## [4] "featAcceleration" "featInstrument"   "featJerk"        
-## [7] "featMagnitude"    "featVariable"     "featAxis"
 ```
