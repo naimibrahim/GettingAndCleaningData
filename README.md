@@ -39,3 +39,19 @@ The analysis combined these files and, per the directions, selected out only the
 
 
 NOTE: Since the data has been processed already to calculate the various absolute displacements, it was determined that since the processed measurements were included, the individual X, Y, Z acelerometer were excluded.
+
+
+
+
+
+Steps to reproduce this project
+-------------------------------
+
+1. Open the R script `run_analysis.r` using a text editor.
+2. Change the parameter of the `setwd` function call to the working directory/folder (i.e., the folder where these the R script file is saved).
+
+
+
+Outputs produced
+----------------
+* Tidy dataset file `tidy_data.txt` (tab-delimited text)
